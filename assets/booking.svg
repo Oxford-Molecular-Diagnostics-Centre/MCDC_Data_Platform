@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="525" viewBox="0 0 1000 525" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrative equipment booking calendar</title>
+  <desc id="desc">Example reservations for a flow cytometer, plate reader and laboratory bench. No live bookings are shown.</desc>
+  <rect width="1000" height="525" fill="#f5f7f9"/>
+  <rect width="1000" height="70" fill="#092451"/>
+  <g font-family="Arial, sans-serif">
+    <text x="36" y="43" fill="white" font-size="24">Equipment &amp; Bench Booking</text>
+    <text x="36" y="112" fill="#637183" font-size="18">Illustrative week · Example reservations</text>
+    <rect x="36" y="140" width="928" height="330" fill="white" stroke="#dae1e9"/>
+    <path d="M36 195H964M36 265H964M36 335H964M36 405H964M222 140V470M408 140V470M594 140V470M780 140V470" fill="none" stroke="#dae1e9"/>
+    <g fill="#092451" font-size="18" text-anchor="middle">
+      <text x="129" y="176">Monday</text><text x="315" y="176">Tuesday</text><text x="501" y="176">Wednesday</text><text x="687" y="176">Thursday</text><text x="873" y="176">Friday</text>
+    </g>
+    <rect x="48" y="209" width="162" height="112" rx="4" fill="#e8eef6"/>
+    <rect x="420" y="279" width="162" height="112" rx="4" fill="#fff7da"/>
+    <rect x="792" y="349" width="160" height="108" rx="4" fill="#e8eef6"/>
+    <g fill="#092451" font-size="16"><text x="61" y="238">Flow cytometer</text><text x="61" y="266">Example booking</text><text x="433" y="308">Plate reader</text><text x="433" y="336">Example booking</text><text x="805" y="378">Laboratory bench</text><text x="805" y="406">Example booking</text></g>
+    <text x="36" y="504" fill="#637183" font-size="15">Resource availability and permissions are managed by the laboratory.</text>
+  </g>
+</svg>
