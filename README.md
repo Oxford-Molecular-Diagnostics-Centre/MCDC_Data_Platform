@@ -21,7 +21,7 @@ Pull requests and other branches run the build checks; only the default branch d
 
 All site links and asset paths are relative, so the same files work on a `github.io/repository/` project site, an account site or a custom domain. No hostname is assumed. For a custom domain, configure it in the repository's Pages settings.
 
-This workspace has no usable Git checkout or configured remote. No commit, push or live deployment has been performed.
+The configured remote is `Oxford-Molecular-Diagnostics-Centre/MCDC_Data_Platform`. Local edits and a staged build do not publish changes; deployment requires a push through the configured publishing workflow.
 
 ## Editing
 
@@ -51,3 +51,27 @@ The system descriptions were checked against these neighbouring repository files
 | REDCap, local systems, AWS, Illumina | Supplied overview; WebNGS README for configured S3/BaseSpace use | Project-dependent capabilities, with unverified live integrations explicitly qualified |
 
 Repository documentation supports capability descriptions, not claims about current production deployment, certification or study approval. The public copy avoids release-specific status claims and routes availability questions to MCDC.
+
+
+## Feedback applied on 12 November 2026
+
+The latest message from Helene Dreau in the supplied `RE Request for 1-2 slides.msg` guides this update. Earlier requests in the quoted chain concern presentation slides and are background, not additional deliverables.
+
+- Use the same five workflow labels in the hero diagram, lifecycle and detailed sections: clinical cohort and study metadata; sample management; laboratory operations and analytical testing; biomarker data and analytical results; reporting and collaboration.
+- Keep data generation and analysis together. Show IT, storage, resource management and quality management as infrastructure supporting all stages. Preserve existing section anchors, including `#laboratory`, `#analysis`, `#storage` and `#quality`.
+- Group the directory by the cross-cutting OPS, QMS and IT functions marked on the email screenshots. Show all three spanning the entire five-stage workflow. The directory features 12 systems; sample-sheet checks sit within WebNGS, with the existing comparison detail page retained for supporting information and legacy links.
+- Use Histopathology Services as the current display name while retaining the established service URL. Include molecular and cellular outputs in the overview and results descriptions.
+- Context: the supplied `MCDC - SRF 2026 (Presentation).pptx`, including its integrated pathway and laboratory capabilities, and the Oxford Cancer MCDC webpage supplied by the user. Its indexed MCDC content was accessible under `https://www.cancer.ox.ac.uk/support/omdc`; direct page retrieval was unavailable.
+
+**Coordination still required:** Konstantin and Sara need to agree the plans and destination for the Project Initiation Document (PID) form on the Cancer Centre website. The existing “Discuss a project” email link remains in place until that destination is agreed. No message has been sent to Sara and no form migration has been performed.
+
+Source email, presentation and review notes are excluded from the public `_site` build by the explicit publishing list in `scripts/build_site.py`.
+
+
+### Follow-up visual revisions
+
+- OPS groups study capture, LIMS, MCDC Sample Tracker, stock and booking. QMS groups EQA and the shared quality controls. IT groups WebNGS, Illumina, WebIGV, local systems and AWS. These are functional groupings; QMS and IT support operational systems as well.
+- Every system detail page returns to its OPS, QMS or IT overview. Existing workflow section anchors remain available.
+- Screenshot images render at their natural proportions without fixed-height clipping or hover enlargement. The existing source image files are retained.
+- Capability cards, laboratory services, directory groups and infrastructure cards now have images. Python and Illumina wordmarks are unmodified; the other new illustrations use locally cached Lucide icons. Sources and licenses are included in `assets/illustrations/SOURCES.txt`, `LUCIDE-LICENSE.txt` and `FEATHER-LICENSE.txt`.
+- The image sources are [Lucide](https://lucide.dev/license), the [Python Software Foundation](https://www.python.org/community/logos/) and the [Illumina wordmark file on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Illumina_logo.svg). No external asset requests are needed when viewing the website.

@@ -1,0 +1,21 @@
+Illustrations and logos used on the MCDC Data Platform website
+
+Lucide icons, version 0.468.0
+Source: https://github.com/lucide-icons/lucide/tree/0.468.0/icons
+License: ISC (see LUCIDE-LICENSE.txt); Feather-derived icons also retain the MIT notice in FEATHER-LICENSE.txt.
+The icon stroke colour was changed to the website blue. Geometry is unchanged.
+
+Python logo, unmodified
+Source: https://www.python.org/community/logos/
+Asset: https://www.python.org/static/community_logos/python-logo-generic.svg
+Python and its logo are trademarks of the Python Software Foundation.
+Used to illustrate the Python workflow automation described on this website.
+
+Illumina logo, unmodified
+Source: https://commons.wikimedia.org/wiki/File:Illumina_logo.svg
+Asset: https://upload.wikimedia.org/wikipedia/commons/b/b6/Illumina_logo.svg
+The source identifies the simple wordmark as PD-textlogo. Illumina trademark rights remain with its owner.
+Used to identify the Illumina cloud ecosystem.
+
+Other screenshots and the Oxford Cancer logo were already supplied with the website.
+The equipment booking calendar is an illustrative SVG already in the project.
